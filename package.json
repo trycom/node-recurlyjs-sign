@@ -1,0 +1,32 @@
+{
+    "name": "recurlyjs-sign",
+    "description": "Node.js library for signing Recurly.js forms.",
+    "keywords": [
+        "recurly",
+        "e-commerce",
+        "recurring billing"
+    ],
+    "version": "0.0.1",
+    "homepage": "https://github.com/brandid/recurlyjs-sign",
+    "author": "Arush Sehgal <arush@getbrandid.com> (http://github.com/arush)",
+    "contributors": [
+	    {
+	      "name": "Simon Tabor",
+	      "email": "simon@gosquared.com"
+	    }
+	  ],
+    "bugs": {
+        "web": "https://github.com/brandid/recurlyjs-sign/issues"
+    },
+    "directories": {
+        "lib": "./lib"
+    },
+    "main": "./lib/sign.js",
+    "dependencies": {
+        "crypto": "0.0.3",
+        "node-uuid": "1.4.0"
+    },
+    "engines": {
+        "node": ">= 0.8.16"
+    }
+}
