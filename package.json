@@ -24,7 +24,7 @@
     "main": "./lib/sign.js",
     "dependencies": {
         "crypto": "0.0.3",
-        "node-uuid": "1.4.0"
+        "qs": "0.5.3"
     },
     "engines": {
         "node": ">= 0.8.16"
